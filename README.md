@@ -1,17 +1,19 @@
 <h1 align="center">AudioScribe</h1>
-
+This project converts audio or video files into text using Python. It supports various formats, extracts audio from videos, converts non-WAV files, and transcribes speech using Google’s API, delivering accurate results with robust error handling and cleanup.
 
 ## Execution Guide:
 1. Run the following command line in the terminal:
    ```
-
+   pip install pydub SpeechRecognition moviepy numpy
    ```
 
-2. Enter the path of the file whose transcription you want to see
+2. Download FFmpeg from the official site **https://ffmpeg.org/download.html**
 
-3. Enter the path where you want to save the `transcription.txt` file
+3. Enter the path of the file whose transcription you want to see
 
-4. Now run the code and it will output its prediction
+4. Enter the path where you want to save the `transcription.txt` file
+
+5. Now run the code and it will output its prediction
 
 ## Model Prediction:
 
